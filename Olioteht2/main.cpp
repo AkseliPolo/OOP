@@ -11,8 +11,8 @@ int main()
     cout << "Give max value" << endl;
     cin >> maxValue;
 
-    Game game(maxValue);   // Game-olio luodaan
-    game.play();           // Peli käynnistetään
+    Game game(maxValue);
+    game.play();
 
     cout << "DEBUG: main() ending" << endl;
     return 0;
